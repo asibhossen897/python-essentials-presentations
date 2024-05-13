@@ -4,7 +4,7 @@ BaseCase.main(__name__, __file__)
 
 class MyTestClass(BaseCase):
     def test_presentation(self):
-        self.create_presentation(theme="night", transition="fade")
+        self.create_presentation(theme="serif", transition="fade")
         
         self.add_slide(
             "<h2>Python Essentials:</h2>\n"
